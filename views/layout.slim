@@ -1,0 +1,24 @@
+doctype html
+html 
+  head
+    meta charset="utf-8"
+    meta name="viewport" content="width-device=width, initial-scale=1.0"
+    meta name="description" content=""
+    meta name="author" content="yapg"
+    title == "yapg &middot; #{Yapg.title}"
+    /title  Yapg.title
+    link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0-rc1/css/bootstrap.min.css"
+    link rel="stylesheet" href="/yapg.css"
+    link rel="stylesheet" href="/css/blueimp-gallery.min.css"
+  body 
+    div class="navbar navbar-fixed-top"
+      div class="container"
+        a class="navbar-brand" href="#" <b>Y</b>et<b>A</b>nother<b>P</b>hoto<b>G</b>allery
+    div class="container"
+      div class="yapg-template"
+        == yield
+    hr
+    footer class="footer"
+      div class="container"
+        p Yet Another Photo Gallery 
+        p Licensed under BSD License (2-Clause)

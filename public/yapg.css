@@ -1,0 +1,52 @@
+body {
+  padding-top: 50px;
+  max-width: 750px;
+  margin: 0 auto;
+  padding: 1em;
+  font-family: 'Lucida Grande', 'Lucida Sans Unicode', Arial, sans-serif;
+  font-size: 1em;
+  line-height: 1.4em;
+  background: #222;
+  color: #fff;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+.yapg-template {
+  padding-top: 40px;
+  text-align: center;
+}
+.container {
+  max-width:750px;
+}
+
+.navbar-brand {
+  margin-left: 10px;
+}
+
+/* Footer
+ * -------------------------------------------------- */
+
+.footer {
+  text-align: center;
+  padding: 10px 0;
+  margin-top: 20px;
+  /*border-top: 1px solid #e5e5e5;*/
+  /*background-color: #f5f5f5;*/
+}
+.footer p {
+  margin-bottom: 0;
+  color: #777;
+}
+.footer-links {
+  margin: 10px 0;
+}
+.footer-links li {
+  display: inline;
+  padding: 0 2px;
+}
+.footer-links li:first-child {
+  padding-left: 0;
+}
